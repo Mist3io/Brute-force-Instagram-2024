@@ -100,8 +100,8 @@ def main():
             elif 'status' in response.text:
               print (end_banner_color + "---------------------------------------")
               print ((red_color + ' --> Username : ' + end_banner_color + username + red_color +' --> Password : '+ end_banner_color + password + red_color +' --> Error'))
-              print('\nSleeping for 10 seconds...')
-              sleep(10)
+              print('\nSleeping for 1 seconds...')
+              sleep(1)
 
 if __name__ == "__main__":
     main()
